@@ -12,7 +12,7 @@ async def scrape():
         print("Page loaded")
         
         # Wait for page to fully load
-        await page.wait_for_timeout(3000)
+        await page.wait_for_timeout(5000)
         
         # Try different selectors to find scheme cards/links
         possible_selectors = [
@@ -134,11 +134,11 @@ async def scrape():
             
             # Try to go to the next page using multiple strategies
             try:
-                # Strategy 1: Try page numbers
+                # Strategy 1: Manually click on the next page number
                 next_page_number = current_page + 1
-                next_page_button = await page.query_selector(f'a:text-is("{next_page_number}")')
+                next_page_button = await page.query_selector(f'li:has-text("{next_page_number}")')
                 if next_page_button:
-                    print("Found 'Next' page number, navigating to page", next_page_number)
+                    print("Found page number", next_page_number)
                     await next_page_button.click()
                     await page.wait_for_load_state('networkidle')
                     current_page += 1

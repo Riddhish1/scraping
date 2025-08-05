@@ -100,21 +100,6 @@
     "link": "/schemes/mhh"
   },
   {
-    "title": "Pradhan Mantri Fasal Bima Yojna (PMFBY)",
-    "description": "No description found",
-    "link": "/schemes/pmfby"
-  },
-  {
-    "title": "Pradhan Mantri Matsya Sampada Yojana",
-    "description": "No description found",
-    "link": "/schemes/pmmsy"
-  },
-  {
-    "title": "Pradhan Mantri Matsya Sampada Yojana: Motor Cycle with Ice Box - Haryana",
-    "description": "No description found",
-    "link": "/schemes/mcwibs"
-  },
-  {
     "title": "Coffee Development Programme in North Eastern Region: Quality Upgradation / Certification: Supply of Baby Pulpers",
     "description": "No description found",
     "link": "/schemes/cdpnerqucsbp"
@@ -163,36 +148,6 @@
     "title": "Coffee Development Programme in North Eastern Region: Quality Upgradation / Certification: Drying Yards",
     "description": "No description found",
     "link": "/schemes/cdpnerqucdy"
-  },
-  {
-    "title": "Coffee Development Programme in North Eastern Region: Quality Upgradation / Certification: Supply of Baby Pulpers",
-    "description": "No description found",
-    "link": "/schemes/cdpnerqucsbp"
-  },
-  {
-    "title": "Grant of Subsidy for Procurement of Vehicle",
-    "description": "No description found",
-    "link": "/schemes/gspv"
-  },
-  {
-    "title": "Mukhya mantri Krishak Udyami Yojana",
-    "description": "No description found",
-    "link": "/schemes/mkuy"
-  },
-  {
-    "title": "Financial Assistance for Purchase of Stake Net and its Accessories",
-    "description": "No description found",
-    "link": "/schemes/fapsna"
-  },
-  {
-    "title": "Financial Assistance to the Fish Vendors Registered with the Directorate of Fisheries to Purchase the Accessories Required for Fish Vending",
-    "description": "No description found",
-    "link": "/schemes/fafvrdfparfv"
-  },
-  {
-    "title": "Financial Assistance to Purchase Outboard Motor of 2HP to 5 HP for Fitting to the Fishing Canoe",
-    "description": "No description found",
-    "link": "/schemes/fatpomo2t5ffttfc"
   },
   {
     "title": "Primary Cooperative Agriculture and Rural Development Bank: For Sericulture In Irrigated Area",
@@ -285,21 +240,6 @@
     "link": "/schemes/wit"
   },
   {
-    "title": "Meghalaya Agriculture Response Vehicle Scheme",
-    "description": "No description found",
-    "link": "/schemes/marvs"
-  },
-  {
-    "title": "Krishi Yantra",
-    "description": "No description found",
-    "link": "/schemes/ky"
-  },
-  {
-    "title": "Distribution of Rhizobium",
-    "description": "No description found",
-    "link": "/schemes/apdccsifdsgc"
-  },
-  {
     "title": "Cattle Shed Subsidy Scheme under Scheduled Castes Sub Plan (SC Category)",
     "description": "No description found",
     "link": "/schemes/csssscspscc"
@@ -325,49 +265,9 @@
     "link": "/schemes/docsos"
   },
   {
-    "title": "Afforestation Schemes Providing Incentives And Employment To Tribals In Forest",
-    "description": "No description found",
-    "link": "/schemes/aspie"
-  },
-  {
-    "title": "Financial Assistance To Purchase Singel Net / Small Rampon Net & Its Accessories",
-    "description": "No description found",
-    "link": "/schemes/fapsnsrna"
-  },
-  {
-    "title": "Subsidy for the Purchase of Wooden/Fiber Reinforced Plastic/Steel Mechanised Boats",
-    "description": "No description found",
-    "link": "/schemes/spwfrpsmb-faascdmf"
-  },
-  {
-    "title": "Coffee Development Programme in North Eastern Region: Quality Upgradation / Certification: Drying Yards",
-    "description": "No description found",
-    "link": "/schemes/cdpnerqucdy"
-  },
-  {
-    "title": "Coffee Development Programme in North Eastern Region: Quality Upgradation / Certification: Supply of Baby Pulpers",
-    "description": "No description found",
-    "link": "/schemes/cdpnerqucsbp"
-  },
-  {
     "title": "Scheme for the Welfare of Schedule Caste Families in Fisheries Sector: Subsidy on Annual Auction of Notified Waters",
     "description": "No description found",
     "link": "/schemes/faotaaonw"
-  },
-  {
-    "title": "Financial Assistance for the Purchase of Lifejackets and Lifebuoys for Fishermen",
-    "description": "No description found",
-    "link": "/schemes/fapllf"
-  },
-  {
-    "title": "Financial Assistance to Purchase/Construct New Fishing Craft less than 26 feet for Fishing in Inland Waters of Goa",
-    "description": "No description found",
-    "link": "/schemes/fapcnfclt26ffiw"
-  },
-  {
-    "title": "Diesel VAT Relief Scheme for Fishermen",
-    "description": "No description found",
-    "link": "/schemes/sib"
   },
   {
     "title": "Bhavantar Bharpai Yojana",
@@ -420,26 +320,6 @@
     "link": "/schemes/dvrsf"
   },
   {
-    "title": "Bhavantar Bharpai Yojana",
-    "description": "No description found",
-    "link": "/schemes/bvby"
-  },
-  {
-    "title": "Scheme to Provide Financial Assistance to Farmers for Purchasing Sanedo Agricultural Equipment",
-    "description": "No description found",
-    "link": "/schemes/spfasae"
-  },
-  {
-    "title": "Scheme for Assistance on Purchase of Smartphone by the Farmers",
-    "description": "No description found",
-    "link": "/schemes/sapsf"
-  },
-  {
-    "title": "Assistance of Concentrate Feed After Parturition (Scheduled Caste Category)",
-    "description": "No description found",
-    "link": "/schemes/acfapsc"
-  },
-  {
     "title": "\"Agricultural Income Tax Holiday\" under the \"Assam Tea Industries Special Incentives Scheme\"",
     "description": "No description found",
     "link": "/schemes/aith-atisis"
@@ -473,11 +353,6 @@
     "title": "PMMSY: Establishment of New Freshwater Fin Fish Hatcheries-Haryana",
     "description": "No description found",
     "link": "/schemes/enffhr"
-  },
-  {
-    "title": "Scheme for the Welfare of Schedule Caste Families in Fisheries Sector: Subsidy on Annual Auction of Notified Waters",
-    "description": "No description found",
-    "link": "/schemes/faotaaonw"
   },
   {
     "title": "Pashu Palan Yojana (GSKVN)",
@@ -700,16 +575,6 @@
     "link": "/schemes/apdccsscspscc"
   },
   {
-    "title": "Plant Protection including Integrated Pest Management Scheme",
-    "description": "No description found",
-    "link": "/schemes/ipm"
-  },
-  {
-    "title": "\"Integrated Farming for Productivity Improvement Scheme\" by the Coconut Development Board",
-    "description": "No description found",
-    "link": "/schemes/ifpisbtcdb"
-  },
-  {
     "title": "Integrated Agriculture Training Centre Scheme",
     "description": "No description found",
     "link": "/schemes/iatc"
@@ -723,11 +588,6 @@
     "title": "Winter Cropping & Development of Cultivable Land Scheme",
     "description": "No description found",
     "link": "/schemes/wcdcls"
-  },
-  {
-    "title": "Chhatraon Ke Liye Protsahan Rashi",
-    "description": "No description found",
-    "link": "/schemes/cklpr"
   },
   {
     "title": "Scheme for Providing Employment Opportunities to Scheduled Castes by Establishing Livestock Units",
@@ -778,26 +638,6 @@
     "title": "Scheme for Providing Employment Opportunities to Scheduled Castes by Establishing Livestock Units under Mukhya Mantri Antyodaya Parivaar Utthan Yojana",
     "description": "No description found",
     "link": "/schemes/speoselummapuy"
-  },
-  {
-    "title": "Scheme for Providing Employment Opportunities to Scheduled Castes by Establishing Livestock Units",
-    "description": "No description found",
-    "link": "/schemes/speoscelu"
-  },
-  {
-    "title": "Scheme for Conservation and Development of Indigenous Cattle and Murrah Development",
-    "description": "No description found",
-    "link": "/schemes/scdicmd"
-  },
-  {
-    "title": "Scheme for Establishment of Backyard Poultry Units",
-    "description": "No description found",
-    "link": "/schemes/sebpu"
-  },
-  {
-    "title": "Scheme for Establishment of Hi-Tech and Mini Dairy Units",
-    "description": "No description found",
-    "link": "/schemes/sehtmdu"
   },
   {
     "title": "Visit of Contract Farming Farmers to the Research Stations in Karnataka",
@@ -888,26 +728,6 @@
     "title": "Advanced Animal Breeding Scheme (Supply of Breedable Pedigree Murrah Bull on Subsidy)",
     "description": "No description found",
     "link": "/schemes/aabssobpmbos"
-  },
-  {
-    "title": "Kisan Suryoday Yojana (KSY)",
-    "description": "No description found",
-    "link": "/schemes/ksyg"
-  },
-  {
-    "title": "Assistance to OBM Boat Owner Fishermen on Purchase of Kerosene",
-    "description": "No description found",
-    "link": "/schemes/aobofpk"
-  },
-  {
-    "title": "Kisan Suryoday Yojana (KSY)",
-    "description": "No description found",
-    "link": "/schemes/ksyg"
-  },
-  {
-    "title": "Assistance to OBM Boat Owner Fishermen on Purchase of Kerosene",
-    "description": "No description found",
-    "link": "/schemes/aobofpk"
   },
   {
     "title": "Assistance for Cattleshed, Gaman, Water Tank and Bucket",
@@ -1115,31 +935,6 @@
     "link": "/schemes/agr2fmsfotscst"
   },
   {
-    "title": "Promotion Of Intensive Aquaculture Through Introduction Of Bio-floc Technology During The Year 2021-22",
-    "description": "No description found",
-    "link": "/schemes/piatibft"
-  },
-  {
-    "title": "Chief Minister's Krishi Rinn Yojana",
-    "description": "No description found",
-    "link": "/schemes/cmkry"
-  },
-  {
-    "title": "Motorisation Of Traditional Crafts",
-    "description": "No description found",
-    "link": "/schemes/mtc"
-  },
-  {
-    "title": "Stipend Scheme For Scheduled Tribes - Poultry Training Stipend",
-    "description": "No description found",
-    "link": "/schemes/ssst-pts"
-  },
-  {
-    "title": "Him Kukkut Palan Yojna",
-    "description": "No description found",
-    "link": "/schemes/hkpy"
-  },
-  {
     "title": "Maize Development through Cluster Approach Scheme",
     "description": "No description found",
     "link": "/schemes/mdcas"
@@ -1188,41 +983,6 @@
     "title": "Shednet House",
     "description": "No description found",
     "link": "/schemes/sh"
-  },
-  {
-    "title": "Maize Development through Cluster Approach Scheme",
-    "description": "No description found",
-    "link": "/schemes/mdcas"
-  },
-  {
-    "title": "Fodder Minikits under Schedule Castes Sub Plan (SC Category)",
-    "description": "No description found",
-    "link": "/schemes/fmscspscc"
-  },
-  {
-    "title": "Seed Testing Laboratory Scheme",
-    "description": "No description found",
-    "link": "/schemes/stlsmeghalaya"
-  },
-  {
-    "title": "Farmers Training Institute Scheme",
-    "description": "No description found",
-    "link": "/schemes/ftis"
-  },
-  {
-    "title": "Shednet House",
-    "description": "No description found",
-    "link": "/schemes/sh"
-  },
-  {
-    "title": "Maize Development through Cluster Approach Scheme",
-    "description": "No description found",
-    "link": "/schemes/mdcas"
-  },
-  {
-    "title": "Fodder Minikits under Schedule Castes Sub Plan (SC Category)",
-    "description": "No description found",
-    "link": "/schemes/fmscspscc"
   },
   {
     "title": "Assistance for Power Driven Chaff Cutter Scheme under Tribal Area Sub Plan (TASP- ST Category)",
@@ -1330,21 +1090,6 @@
     "link": "/schemes/pnaoif"
   },
   {
-    "title": "Assistance in Packing Materials under Post Harvest Management of Horticultural Produce",
-    "description": "No description found",
-    "link": "/schemes/apmuphmh"
-  },
-  {
-    "title": "Assistance Program for Planting in Floriculture",
-    "description": "No description found",
-    "link": "/schemes/apfpf"
-  },
-  {
-    "title": "Atma Nirbhar Plantation Yojana",
-    "description": "No description found",
-    "link": "/schemes/anpyap"
-  },
-  {
     "title": "Sugarcane Development Scheme",
     "description": "No description found",
     "link": "/schemes/sdsuk"
@@ -1393,11 +1138,6 @@
     "title": "National Mission for Sustainable Agriculture - Reinforced Area Development",
     "description": "No description found",
     "link": "/schemes/nmsa-radg"
-  },
-  {
-    "title": "Sugarcane Development Scheme",
-    "description": "No description found",
-    "link": "/schemes/sdsuk"
   },
   {
     "title": "Jal Hauj",
@@ -1480,16 +1220,6 @@
     "link": "/schemes/agr4fmsscf"
   },
   {
-    "title": "Stipend Scheme For Poultry Farming Training For Divyang People",
-    "description": "No description found",
-    "link": "/schemes/sspftdp"
-  },
-  {
-    "title": "Saur Sujala Yojana",
-    "description": "No description found",
-    "link": "/schemes/ssyc"
-  },
-  {
     "title": "To Provide Financial Assistance to the Farmers Practicing Natural Farming Under the Completely Chemical Free Dang District",
     "description": "No description found",
     "link": "/schemes/tpfafnfd"
@@ -1538,11 +1268,6 @@
     "title": "To Provide Interest Subvention to Fishermen of the State at the Rate of 4% to the Beneficiaries Kishan Credit Card",
     "description": "No description found",
     "link": "/schemes/tpfkcc"
-  },
-  {
-    "title": "To Provide Financial Assistance to the Farmers Practicing Natural Farming Under the Completely Chemical Free Dang District",
-    "description": "No description found",
-    "link": "/schemes/tpfafnfd"
   },
   {
     "title": "Financial Assistance for Purchase of Fuel (Petrol) to the Fishermen for Operation of Out Board Motors",
@@ -1595,11 +1320,6 @@
     "link": "/schemes/dmochn"
   },
   {
-    "title": "AGR-50 Scheme-Assistance To Purchase Tractors",
-    "description": "No description found",
-    "link": "/schemes/fapfpfoobm"
-  },
-  {
     "title": "Tuber Crops Potato, Tapioca, Colocasia",
     "description": "No description found",
     "link": "/schemes/tcptc"
@@ -1620,16 +1340,6 @@
     "link": "/schemes/cdpnerec"
   },
   {
-    "title": "Subsidy Scheme On Establishment Of 25 R.I.R. Birds' Unit For Weaker Section",
-    "description": "No description found",
-    "link": "/schemes/sse25rbuwse"
-  },
-  {
-    "title": "Semi-Commercial Duck Farming",
-    "description": "No description found",
-    "link": "/schemes/scdf"
-  },
-  {
     "title": "Stipend Scheme For Poultry Farming Training For Schedule Caste",
     "description": "No description found",
     "link": "/schemes/sspftsc"
@@ -1648,26 +1358,6 @@
     "title": "Scheme For Subsidy On Interest For Establishment Of 1 To 20 Milch Animal Farm For Scheduled Tribe",
     "description": "No description found",
     "link": "/schemes/ssiemafst"
-  },
-  {
-    "title": "AGR 3 (Farm Mechanization) Scheme For ST Farmers",
-    "description": "No description found",
-    "link": "/schemes/agr3fmsstf"
-  },
-  {
-    "title": "AGR 4 (Farm Mechanization) Scheme For SC Farmers",
-    "description": "No description found",
-    "link": "/schemes/agr4fmsscf"
-  },
-  {
-    "title": "Stipend Scheme For Poultry Farming Training For Divyang People",
-    "description": "No description found",
-    "link": "/schemes/sspftdp"
-  },
-  {
-    "title": "Saur Sujala Yojana",
-    "description": "No description found",
-    "link": "/schemes/ssyc"
   },
   {
     "title": "Nanaji Deshmukh Krishi Sanjivani Prakalp",
@@ -1720,21 +1410,6 @@
     "link": "/schemes/rkvyshfshc"
   },
   {
-    "title": "Nanaji Deshmukh Krishi Sanjivani Prakalp",
-    "description": "No description found",
-    "link": "/schemes/pocra"
-  },
-  {
-    "title": "Chief Minister Agriculture and Food Processing Scheme",
-    "description": "No description found",
-    "link": "/schemes/chief-minister-agriculture-and-food-processing-scheme"
-  },
-  {
-    "title": "Bhausaheb Fundkar Falbag Lagvad Scheme",
-    "description": "No description found",
-    "link": "/schemes/bhausaheb-fundkar-horticulture-plantataion-scheme"
-  },
-  {
     "title": "Development of Strawberry Cultivation",
     "description": "No description found",
     "link": "/schemes/dsc"
@@ -1748,11 +1423,6 @@
     "title": "Natural Calamity Relief to Fishermen of State",
     "description": "No description found",
     "link": "/schemes/ncrfs"
-  },
-  {
-    "title": "Deendayal Upadhay Sahkarita Kisan Kalyan Yojana",
-    "description": "No description found",
-    "link": "/schemes/dduskky"
   },
   {
     "title": "Assistance to Scheduled Caste Farmers for Sinking Tubewell",
@@ -1803,41 +1473,6 @@
     "title": "Assistance for Installation of Sprinkler / Drip Micro Irrigation Systems",
     "description": "No description found",
     "link": "/schemes/aispmis"
-  },
-  {
-    "title": "Assistance to Scheduled Caste Farmers for Sinking Tubewell",
-    "description": "No description found",
-    "link": "/schemes/ascfst"
-  },
-  {
-    "title": "Vegetable Development Scheme",
-    "description": "No description found",
-    "link": "/schemes/vds"
-  },
-  {
-    "title": "Regional Centre for Training and Production of Mushroom",
-    "description": "No description found",
-    "link": "/schemes/rctpm"
-  },
-  {
-    "title": "Plant Protection Scheme",
-    "description": "No description found",
-    "link": "/schemes/pps"
-  },
-  {
-    "title": "Fruit Processing Centre",
-    "description": "No description found",
-    "link": "/schemes/fpc"
-  },
-  {
-    "title": "Goa Value Added Tax-Based Subsidy on H.S.D. Oil Consumed by Fishing Vessels Scheme",
-    "description": "No description found",
-    "link": "/schemes/gvatbshsdocfvs"
-  },
-  {
-    "title": "Financial Assistance To Fishermen For Purchase of Fisheries Requisites (Gill Net/ River Gill Net with Accessories)",
-    "description": "No description found",
-    "link": "/schemes/fafpfrgnrgnwa"
   },
   {
     "title": "Mukhya Mantri Mahila Kisan Sashaktikaran Yojana",
@@ -1925,16 +1560,6 @@
     "link": "/schemes/asdtpwff"
   },
   {
-    "title": "Beej Swalamban Yojna",
-    "description": "No description found",
-    "link": "/schemes/bsyrj"
-  },
-  {
-    "title": "Zero Budget Natural Farming",
-    "description": "No description found",
-    "link": "/schemes/zbnf"
-  },
-  {
     "title": "Drip Sanyantr",
     "description": "No description found",
     "link": "/schemes/dsr"
@@ -1985,11 +1610,6 @@
     "link": "/schemes/scfc-cpt"
   },
   {
-    "title": "Drip Sanyantr",
-    "description": "No description found",
-    "link": "/schemes/dsr"
-  },
-  {
     "title": "Khet Talai",
     "description": "No description found",
     "link": "/schemes/kt"
@@ -1998,31 +1618,6 @@
     "title": "Sinchai Pipeline Karyakram",
     "description": "No description found",
     "link": "/schemes/spk"
-  },
-  {
-    "title": "Basic Agriculture Training Centre Scheme",
-    "description": "No description found",
-    "link": "/schemes/batcs"
-  },
-  {
-    "title": "\"Subsidy for Cultivation of Fodder Crops\" Component of the \"Crop Production Technology\" Scheme",
-    "description": "No description found",
-    "link": "/schemes/scfc-cpt"
-  },
-  {
-    "title": "Drip Sanyantr",
-    "description": "No description found",
-    "link": "/schemes/dsr"
-  },
-  {
-    "title": "Sardar Patel Agriculture Research Award",
-    "description": "No description found",
-    "link": "/schemes/spara"
-  },
-  {
-    "title": "Rajiv Gandhi Krishak Sathi Sahayta Yojana",
-    "description": "No description found",
-    "link": "/schemes/rgkssy"
   },
   {
     "title": "Plastic Mulching",
@@ -2090,11 +1685,6 @@
     "link": "/schemes/mpy-mcpnpky"
   },
   {
-    "title": "Nariwal Paudha Vitaran Yojana",
-    "description": "No description found",
-    "link": "/schemes/obd"
-  },
-  {
     "title": "Fal Podharopan Yojana",
     "description": "No description found",
     "link": "/schemes/fpy"
@@ -2143,11 +1733,6 @@
     "title": "Nariwal Paudha Vitaran Yojana",
     "description": "No description found",
     "link": "/schemes/npvy"
-  },
-  {
-    "title": "Mahila Bakri Palan",
-    "description": "No description found",
-    "link": "/schemes/fpy"
   },
   {
     "title": "Pandit Deen Dayal Upadhyay Samoohik Pashudhan Beema Yojana",
@@ -2240,16 +1825,6 @@
     "link": "/schemes/afaesp"
   },
   {
-    "title": "Assistance Program for Expansion of Fruit Crop Cultivation",
-    "description": "No description found",
-    "link": "/schemes/apfefcc"
-  },
-  {
-    "title": "Fish Farming Diversification (Scheduled Caste / Scheduled Tribe) Scheme",
-    "description": "No description found",
-    "link": "/schemes/ffds"
-  },
-  {
     "title": "Intensive Fisheries Development Programme - Subsidy on Insurance Premium for Shrimp Crop Insurance",
     "description": "No description found",
     "link": "/schemes/soipfsci"
@@ -2298,16 +1873,6 @@
     "title": "Rainfed Area Development",
     "description": "No description found",
     "link": "/schemes/rad"
-  },
-  {
-    "title": "\"Immediate Relief Assistance\" under \"Welfare and Relief for Fishermen During Lean Seasons and Natural Calamities Scheme\"",
-    "description": "No description found",
-    "link": "/schemes/ira-wrflsncs"
-  },
-  {
-    "title": "Maintenance Of Pregnant Desi/Indigenous Cow/Buffalo Ration Scheme For BPL Families Belonging To Scheduled Caste (SC) Category",
-    "description": "No description found",
-    "link": "/schemes/mpdicbrsbfscc"
   },
   {
     "title": "Krishak Durghatna Kalyan Yojana",
@@ -2410,21 +1975,6 @@
     "link": "/schemes/cmamp"
   },
   {
-    "title": "National Mission on Edible Oils- Oil Palm",
-    "description": "No description found",
-    "link": "/schemes/nmeo-op"
-  },
-  {
-    "title": "Agroforestry component under RKVY",
-    "description": "No description found",
-    "link": "/schemes/agroforestry"
-  },
-  {
-    "title": "\"Reactivation Of Fisheries Cooperative Societies\" Component of the \"Mukhyamantri Maschyajibi Kalyan Yojana\" Scheme",
-    "description": "No description found",
-    "link": "/schemes/mmky-rfcs"
-  },
-  {
     "title": "National Water Awards",
     "description": "No description found",
     "link": "/schemes/nwa"
@@ -2438,16 +1988,6 @@
     "title": "Harvesting Tools Assistance for General Category (HRT-2)",
     "description": "No description found",
     "link": "/schemes/htagchrt-2"
-  },
-  {
-    "title": "Mukhyamantri Samekit Chaur Vikas Yojana",
-    "description": "No description found",
-    "link": "/schemes/mmscvy"
-  },
-  {
-    "title": "Integrated Sheep Development Scheme",
-    "description": "No description found",
-    "link": "/schemes/kjmpampky"
   },
   {
     "title": "Incentive Assistance to Scheduled Tribe Farmers to Increase the Area, Production and Productivity of Sugarcane Farming",
@@ -2500,11 +2040,6 @@
     "link": "/schemes/bmfe"
   },
   {
-    "title": "Chief Minister’s Agriculture Mechanisation Programme",
-    "description": "No description found",
-    "link": "/schemes/cmamp"
-  },
-  {
     "title": "Facilitation of Large Size Godowns in APMC and Taluka-District Purchase Sale Union (General)",
     "description": "No description found",
     "link": "/schemes/flsgdpsug"
@@ -2533,16 +2068,6 @@
     "title": "Livestock Health and Diseases Control",
     "description": "No description found",
     "link": "/schemes/lhadc"
-  },
-  {
-    "title": "Saansad Adarsh Gram Yojana",
-    "description": "No description found",
-    "link": "/schemes/sagy"
-  },
-  {
-    "title": "Scheme Of Provision Of Subsidized Rams To Sheep Breeders",
-    "description": "No description found",
-    "link": "/schemes/rams-to-sheep-breeders"
   },
   {
     "title": "Scheme for Management and Purchase of Bulls Provided for Breeding of State Gir/ Kankarej Breed",
@@ -2735,21 +2260,6 @@
     "link": "/schemes/midh"
   },
   {
-    "title": "Coffee Development Programme in North Eastern Region: Support for Group Nurseries",
-    "description": "No description found",
-    "link": "/schemes/cdpnersgn"
-  },
-  {
-    "title": "Distribution Of Tractor Unit Under CMSGUY",
-    "description": "No description found",
-    "link": "/schemes/dtu-cmsguy"
-  },
-  {
-    "title": "Crop Cluster Development Programme",
-    "description": "No description found",
-    "link": "/schemes/ccdp"
-  },
-  {
     "title": "National Livestock Mission: Genetic Improvement of Pig Breeds - Import of Exotic Pig Germplasm",
     "description": "No description found",
     "link": "/schemes/iepg"
@@ -2758,21 +2268,6 @@
     "title": "Construction of Dudhghar/ Godown (Scheduled Tribe Area)",
     "description": "No description found",
     "link": "/schemes/cdgsta"
-  },
-  {
-    "title": "Mission on Integrated Development of Horticulture- NHM and HMNEH",
-    "description": "No description found",
-    "link": "/schemes/midh"
-  },
-  {
-    "title": "Harvesting Tools Assistance for Scheduled Castes (HRT-4)",
-    "description": "No description found",
-    "link": "/schemes/htaschrt4"
-  },
-  {
-    "title": "Harvesting Tools Assistance for Scheduled Tribes (HRT-3)",
-    "description": "No description found",
-    "link": "/schemes/htasthrt3"
   },
   {
     "title": "Development Support for Coffee in Traditional Areas: Eco-certification of Coffee",
@@ -2798,26 +2293,6 @@
     "title": "Galvanizing Organic Bio-Agro Resources Dhan (GOBARdhan)",
     "description": "No description found",
     "link": "/schemes/gobardhan"
-  },
-  {
-    "title": "Paramparagat Krishi Vikas Yojana",
-    "description": "No description found",
-    "link": "/schemes/pkvy"
-  },
-  {
-    "title": "National Bamboo Mission",
-    "description": "No description found",
-    "link": "/schemes/nbm"
-  },
-  {
-    "title": "Mission on Integrated Development of Horticulture- NHM and HMNEH",
-    "description": "No description found",
-    "link": "/schemes/midh"
-  },
-  {
-    "title": "Harvesting Tools Assistance for Scheduled Castes (HRT-4)",
-    "description": "No description found",
-    "link": "/schemes/htaschrt4"
   },
   {
     "title": "Chief Minister’s Krishi Samuh Yojana",
@@ -2910,21 +2385,6 @@
     "link": "/schemes/ferts"
   },
   {
-    "title": "Scheme of Assistance for Environment Protection Measures: Scheme for assistance to Environment Management",
-    "description": "No description found",
-    "link": "/schemes/saepaep"
-  },
-  {
-    "title": "Scheme of Assistance for Environment Protection Measures: Scheme for assistance to encouraging Green Practices and Environmental Audit to MSMEs",
-    "description": "No description found",
-    "link": "/schemes/saepegp"
-  },
-  {
-    "title": "Scheme of Assistance for Common Environment Infrastructure: Financial Assistance for Common Environmental Infrastructure Facilities",
-    "description": "No description found",
-    "link": "/schemes/saceieif"
-  },
-  {
     "title": "Assistance to Scheduled Castes for Fisheries: Scheme For Fish Sale Equipment - Gujarat",
     "description": "No description found",
     "link": "/schemes/ascfseguj"
@@ -2948,11 +2408,6 @@
     "title": "Assistance to Farmers in Purchasing Nano Fertilizers Under the Agricultural Assistance Program for Farmers Other than Scheduled Castes and Scheduled Tribes",
     "description": "No description found",
     "link": "/schemes/apnfuscst"
-  },
-  {
-    "title": "Package for strengthening to sugar co-operatives as may be policy decided by the State Government",
-    "description": "No description found",
-    "link": "/schemes/pfssco"
   },
   {
     "title": "Construction of Dudhghar/ Godown (Scheduled Caste Area)",
@@ -2973,30 +2428,5 @@
     "title": "PMMSY: Establishment of Medium RAS / Biofloc culture system - Haryana",
     "description": "No description found",
     "link": "/schemes/eom"
-  },
-  {
-    "title": "Assistance to Scheduled Castes for Fisheries: Scheme For Fish Sale Equipment - Gujarat",
-    "description": "No description found",
-    "link": "/schemes/ascfseguj"
-  },
-  {
-    "title": "Intensive Fisheries Development Programme - Subsidy on Purchase of Fishing Nets (Scheduled Caste)",
-    "description": "No description found",
-    "link": "/schemes/safpofn"
-  },
-  {
-    "title": "PMMSY: Establishment of large RAS / Biofloc culture system - Haryana",
-    "description": "No description found",
-    "link": "/schemes/eol"
-  },
-  {
-    "title": "PMMSY: Establishment of small RAS /Biofloc culture system - Haryana",
-    "description": "No description found",
-    "link": "/schemes/eos"
-  },
-  {
-    "title": "Assistance to Farmers in Purchasing Nano Fertilizers Under the Agricultural Assistance Program for Farmers Other than Scheduled Castes and Scheduled Tribes",
-    "description": "No description found",
-    "link": "/schemes/apnfuscst"
   }
 ]

@@ -163,9 +163,9 @@ async def scrape_scheme_details(page, full_link):
 async def main():
     # Read the existing schemes data
     try:
-        with open('E:\\Capital\\scraping\\all_schemes_data.json', 'r', encoding='utf-8') as f:
+        with open('E:\\Capital\\scraping\\cleaned_schemes_data.json', 'r', encoding='utf-8') as f:
             schemes_data = json.load(f)
-        print(f"Loaded {len(schemes_data)} schemes from all_schemes_data.json")
+        print(f"Loaded {len(schemes_data)} schemes from cleaned_schemes_data.json")
     except Exception as e:
         print(f"Error loading schemes data: {e}")
         return
