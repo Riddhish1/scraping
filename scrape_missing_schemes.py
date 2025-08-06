@@ -1,17 +1,18 @@
 import asyncio
 import json
+import os
 from playwright.async_api import async_playwright
-import re
 
-async def scrape_scheme_details(page, full_link):
+async def scrape_scheme_details(page, full_link, scheme_title="Unknown"):
     """
     Scrape detailed information from a scheme's individual page
+    This function is copied from your complete_scraper.py with full logic
     """
     details = {}
     
     try:
-        print(f"Navigating to: {full_link}")
-        await page.goto(full_link, wait_until='networkidle')
+        print(f"  📄 Extracting details from: {scheme_title}")
+        await page.goto(full_link, wait_until='networkidle', timeout=30000)
         
         # Define sections to scrape
         sections = {
@@ -28,7 +29,6 @@ async def scrape_scheme_details(page, full_link):
         
         # Try multiple selector strategies for each section
         for key, heading in sections.items():
-            print(f"Looking for section: {heading}")
             section_content = ""
             
             # Strategy 1: Look for exact heading match
@@ -49,7 +49,6 @@ async def scrape_scheme_details(page, full_link):
                 try:
                     heading_element = await page.query_selector(selector)
                     if heading_element:
-                        print(f"Found heading with selector: {selector}")
                         
                         # Special handling for Sources And References
                         if key == "sources_and_references":
@@ -130,19 +129,16 @@ async def scrape_scheme_details(page, full_link):
                         if section_content and section_content.strip():
                             details[key] = section_content.strip()
                             content_found = True
-                            print(f"Found content for {heading}: {section_content[:100]}...")
                             break
                             
                 except Exception as e:
-                    print(f"Error with selector {selector}: {e}")
                     continue
             
             if not content_found:
                 details[key] = "Section not found"
-                print(f"Section {heading} not found on page")
         
     except Exception as e:
-        print(f"Error loading page {full_link}: {e}")
+        print(f"    ❌ Error loading details for {scheme_title}: {e}")
         # Add error info to all sections
         error_sections = {
             "details": "Details",
@@ -161,63 +157,92 @@ async def scrape_scheme_details(page, full_link):
     return details
 
 async def main():
-    # Read the existing schemes data
+    missing_schemes_file = r"E:\Capital\scraping\missing_schemes.json"
+    details_file = r"E:\Capital\scraping\details_cleaned.json"
+    failed_schemes_file = r"E:\Capital\scraping\failed_missing_schemes.json"
+
+    # Load the list of missing schemes
     try:
-        with open('E:\\Capital\\scraping\\all_schemes_data.json', 'r', encoding='utf-8') as f:
-            schemes_data = json.load(f)
-        print(f"Loaded {len(schemes_data)} schemes from all_schemes_data.json")
-    except Exception as e:
-        print(f"Error loading schemes data: {e}")
+        with open(missing_schemes_file, 'r', encoding='utf-8') as f:
+            schemes_to_scrape = json.load(f)
+        print(f"✅ Found {len(schemes_to_scrape)} missing schemes to scrape.")
+    except FileNotFoundError:
+        print(f"❌ Error: '{missing_schemes_file}' not found. Run the comparison script first.")
         return
-    
-    # Launch browser
+    except json.JSONDecodeError:
+        print(f"❌ Error: Could not decode JSON from '{missing_schemes_file}'.")
+        return
+
+    # Load existing schemes to avoid duplicates and to append to
+    try:
+        with open(details_file, 'r', encoding='utf-8') as f:
+            existing_details = json.load(f)
+        print(f"✅ Loaded {len(existing_details)} existing schemes from '{details_file}'.")
+    except (FileNotFoundError, json.JSONDecodeError):
+        print(f"⚠️ Warning: Could not load '{details_file}'. A new file will be created with only the newly scraped schemes.")
+        existing_details = []
+
+    newly_scraped_schemes = []
+    failed_schemes = []
+
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)
         page = await browser.new_page()
-        
-        detailed_schemes = []
-        
-        for i, scheme in enumerate(schemes_data):
-            print(f"\nProcessing scheme {i+1}/{len(schemes_data)}: {scheme.get('title', 'Unknown')}")
-            
-            # Get the link
-            link = scheme.get('link', '')
-            if not link or link == "No link found":
-                print("No valid link found, skipping...")
-                continue
-            
-            # Ensure the link is complete
-            if not link.startswith('http'):
-                if link.startswith('/'):
-                    link = f"https://www.myscheme.gov.in{link}"
+
+        for i, scheme in enumerate(schemes_to_scrape):
+            print(f"\n{'='*60}")
+            print(f"🔍 PROCESSING {i+1}/{len(schemes_to_scrape)}: {scheme.get('title', 'Unknown')}")
+            print(f"{'='*60}")
+
+            try:
+                details = await scrape_scheme_details(page, scheme['link'], scheme['title'])
+                
+                if any("Error loading page:" in str(v) for v in details.values()):
+                    print(f"  ❌ Failed to extract details for {scheme['title']}")
+                    failed_schemes.append(scheme)
                 else:
-                    link = f"https://www.myscheme.gov.in/{link}"
-            
-            # Extract detailed information
-            details = await scrape_scheme_details(page, link)
-            
-            # Combine original scheme data with detailed information
-            detailed_scheme = {
-                "title": scheme.get('title', 'Unknown'),
-                "description": scheme.get('description', 'No description'),
-                "link": link,
-                **details  # Add all the detailed sections
-            }
-            
-            detailed_schemes.append(detailed_scheme)
-            
-            # Add a small delay between requests to be respectful
-            await asyncio.sleep(2)
-        
+                    # Combine original info with scraped details
+                    detailed_scheme = {
+                        "title": scheme.get('title'),
+                        "description": "No description found",
+                        "link": scheme.get('link'),
+                        **details
+                    }
+                    newly_scraped_schemes.append(detailed_scheme)
+                    print(f"  ✅ Successfully extracted details for {scheme['title']}")
+
+                await asyncio.sleep(1)  # Small delay between requests
+
+            except Exception as e:
+                print(f"  ❌ An unexpected error occurred while processing {scheme['title']}: {e}")
+                failed_schemes.append(scheme)
+                continue
+
         await browser.close()
-    
-    # Save detailed data to JSON file
-    try:
-        with open('E:\\Capital\\scraping\\details.json', 'w', encoding='utf-8') as f:
-            json.dump(detailed_schemes, f, indent=2, ensure_ascii=False)
-        print(f"\nSuccessfully saved {len(detailed_schemes)} detailed schemes to details.json")
-    except Exception as e:
-        print(f"Error saving detailed data: {e}")
+
+    if newly_scraped_schemes:
+        updated_details = existing_details + newly_scraped_schemes
+        print(f"\n✅ Added {len(newly_scraped_schemes)} new schemes.")
+        print(f"📈 Total schemes now: {len(updated_details)}")
+
+        try:
+            # Sort the final list alphabetically by title for consistency
+            updated_details.sort(key=lambda x: x.get('title', ''))
+            with open(details_file, 'w', encoding='utf-8') as f:
+                json.dump(updated_details, f, indent=2, ensure_ascii=False)
+            print(f"💾 Successfully updated '{details_file}'")
+        except Exception as e:
+            print(f"❌ Error saving updated data to '{details_file}': {e}")
+
+    if failed_schemes:
+        print(f"\n❌ {len(failed_schemes)} schemes failed to scrape.")
+        try:
+            with open(failed_schemes_file, 'w', encoding='utf-8') as f:
+                json.dump(failed_schemes, f, indent=2, ensure_ascii=False)
+            print(f"📋 Failed schemes list saved to '{failed_schemes_file}'")
+        except Exception as e:
+            print(f"❌ Error saving failed schemes list: {e}")
 
 if __name__ == "__main__":
     asyncio.run(main())
+
